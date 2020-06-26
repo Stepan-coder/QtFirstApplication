@@ -27,7 +27,11 @@ void Logic::master( const int &type, const int &nums, const int &time, const int
 {
     setIsMathProcessing(true);
     setTaskString("");
-    int thisAnswer = 0;
+    unsigned int thisAnswer;
+    if (type == 2)
+    {
+        thisAnswer = 1;
+    }
     for (int c = 0; c < 5 + 5*count; c++)
     {
         int newVal = randGenerator(nums);
