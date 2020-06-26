@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>ClickableText.qml</file>
+        <file>Game.qml</file>
+        <file>RadioAction.qml</file>
+        <file>RadioCount.qml</file>
+        <file>RadioNums.qml</file>
+        <file>RadioTime.qml</file>
+        <file>Settings.qml</file>
+    </qresource>
+</RCC>
